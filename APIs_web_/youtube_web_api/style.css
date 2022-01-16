@@ -111,3 +111,7 @@ body {
   background: #fff;
   padding-right: 10px;
 }
+#sidebar-icon {
+  height: 20px;
+  width: 20px;
+}
