@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YouTube | Using YouTube Data API v3</title>
-    <link rel="stylesheet" href="/APIs_web_/youtube_web_api/style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <!-- ------------navbar------------- -->
@@ -22,7 +22,7 @@
       />
       <div class="search_box">
         <input type="text" class="search-bar" placeholder="search" />
-        <button class="search-btn">
+        <button class="search-btn" onclick="searchVideo()">
           <img src="./image/download.png" alt="search_botton" />
         </button>
       </div>
@@ -70,8 +70,10 @@
         more</a
       >
     </div>
+    <!-- filters -->
+
     <!-- videos -->
     <div class="video-container"></div>
   </body>
 </html>
-<script src="/APIs_web_/youtube_web_api/script.js"></script>
+<script src="./script.js"></script>
